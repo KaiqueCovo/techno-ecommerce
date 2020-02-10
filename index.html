@@ -40,7 +40,7 @@
         </div>
         <div class="modal_data">
           <button class="modal_close" @click="product=false">X</button>
-          <span class="modal_price">{{product.preco}}</span>
+          <span class="modal_price">{{product.preco | priceTreatment}}</span>
           <h2 class="modal_title">{{product.nome}}</h2>
           <p> {{product.descricao}}</p>
           <button v-if="product.estoque > 0" class="modal_btn" @click="addItem">Adicionar item</button>
@@ -57,6 +57,12 @@
         </div>
       </div>
     </section>
+
+
+    <!-- ALERT-->
+    <div class="alert" :class="{active: alertActive}">
+      <p class="alert_msg">{{ alertMsg }}</p>
+    </div>
   </div>
 
   <script src="./vue.min.js"></script>
