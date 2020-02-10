@@ -1,12 +1,12 @@
 const vm = new Vue({
   el: "#app",
   data: {
-    products: []
+    products: [],
+    product: false
   },
   filters: {
     priceTreatment(price) {
       const formatPrice = price.toLocaleString("pt-BR", { style: "currency", currency: "BRL"});
-
       return formatPrice
     }
   },
@@ -14,7 +14,12 @@ const vm = new Vue({
     fetchProducts() {
       fetch("./api/produtos.json")
         .then(result => result.json())
-        .then(result => { this.products = result})
+        .then(result => this.products = result)
+    },
+    fetchProduct(id) {
+      fetch(`./api/produtos/${id}/dados.json`)
+        .then(result => result.json())
+        .then(result => this.product = result)
     }
   },
   created() {
