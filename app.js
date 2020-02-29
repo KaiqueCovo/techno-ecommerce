@@ -4,7 +4,7 @@ const vm = new Vue({
     products: [],
     product: false,
     cart: [],
-    cartActive: true,
+    cartActive: false,
     alertMsg:  "item adicionado",
     alertActive: false,
   },
