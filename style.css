@@ -13,7 +13,7 @@ ul{
 
 body {
   background: linear-gradient(to right, #1a1a1a 30%, #fff 30%);
-  font-family: "Noto Serif"
+  font-family: "Lato"
 }
 
 #app {
@@ -166,7 +166,7 @@ body {
   border: none;
   font-size: 1rem;
   padding: 10px 25px;
-  font-family: 'Noto Serif';
+  font-family: 'Lato';
 }
 
 .modal_btn:active {
@@ -327,7 +327,7 @@ body {
   font-size: 1rem;
   padding: 10px 25px;
   border: none;
-  font-family: "Noto Serif";
+  font-family: "Lato";
 }
 
 /* RESPONSIVE */
