@@ -14,7 +14,7 @@
     <!-- HEADER -->
     <header class="header">
       <img class="logo" src="./assets/techno.svg" alt="Techno">
-      <div class="cart_menu" @click="cartActive = true">{{cartTotal | priceTreatment }} | </div>
+      <div class="cart_menu" @click="cartActive = true">{{cartTotal | priceTreatment }} | {{cart.length}}</div>
     </header>
 
     <!-- PRODUCTS -->
