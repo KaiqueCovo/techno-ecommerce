@@ -15,7 +15,8 @@
 <p align="center">
   <a href="#page_facing_up-about-the-project">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#how-to-use">How To Use</a>
+    <a href="#how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="https://kaiquecovo.github.io/techno-ecommerce/">Website</a>
 </p>
 
 ## :page_facing_up: About The Project
